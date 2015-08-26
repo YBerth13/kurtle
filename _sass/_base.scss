@@ -16,6 +16,7 @@ dl, dd, ol, ul, figure {
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
+    font-weight: $base-font-weight;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
@@ -91,14 +92,15 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
+    font-weight: 400;
 
-    &:visited {
+/*    &:visited {
         color: darken($brand-color, 15%);
-    }
+    }*/
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        /*text-decoration: underline;*/
+        color: $grey-color;
     }
 }
 
