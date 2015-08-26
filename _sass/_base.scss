@@ -11,6 +11,18 @@ dl, dd, ol, ul, figure {
 
 
 /**
+ * Make everything border-box
+ */
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/**
  * Basic styling
  */
 body {
@@ -99,8 +111,17 @@ a {
     }*/
 
     &:hover {
-        /*text-decoration: underline;*/
         color: $grey-color;
+    }
+}
+
+.inverted-header {
+    a {
+        color: $background-color;
+
+        &:hover {
+            color: $grey-color;
+        }
     }
 }
 
