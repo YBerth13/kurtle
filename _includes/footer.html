@@ -10,6 +10,8 @@
 
         <a class="page-link" href="{{ site.baseurl }}/blog">Blog</a>
 
+        <a class="page-link" href="{{ site.baseurl }}/projects">Projects</a>
+
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>

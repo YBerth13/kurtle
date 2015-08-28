@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "jekyll vs wordpress"
-date:   2015-08-25 10:03:13
+title:  "jekyll vs wordpress part 1"
+date:   2015-08-26 10:03:13
+comments: true
 categories: programming blog
 ---
 
@@ -37,7 +38,7 @@ In contrast, a server that is serving up a static website does not need to query
 
 #### So what does this have to do with blogging?
 
-Thanks for asking. While WordPress is a very capable platform for blogging, it can be a bit of an overkill. Being a dynamic site generator, it stores blog posts and other data for the blog in a database. Then, when someone requests to see a page on the blog, it accesses the database, renders the files, and then serves them up. This is useful for customizing aspects of the blog, such as which "related posts" show up for certain articles. Generally, however, the content of the blog doesn't change depending on who is looking at it, so having a full-fledged dynamic site generator may be unnecessary. This is where Jekyll comes in!
+Thanks for asking. While WordPress is a very capable platform for blogging, it can be a bit of an overkill. Being a dynamic site generator, it stores blog posts and other data for the blog in a database. Then, when someone requests to see a page on the blog, it accesses the database, renders the files, and then serves them to the reader. This is useful for customizing many aspects of the blog, such as the "related posts" that show up for certain articles. Generally, however, the content of the blog doesn't change depending on who is looking at it, so having a full-fledged dynamic site generator may be unnecessary. This is where Jekyll comes in!
 
 Jekyll is a static site generator. Basically, it is a tool that takes a bunch of files (your website), compiles them together and makes them ready to be served by a web server. Because these files don't have to be modified, these web servers can do their job quickly and your site will (generally) be faster than a dynamically-generated one. For static sites, there are a plethora of inexpensive or free services that will host your website (be the server). Even better, in the case of Jekyll, you can upload your website to Github which will host and serve your site for free with their Github Pages utility.
 

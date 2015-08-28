@@ -2,6 +2,7 @@
 layout: post
 title:  "the new blog"
 date:   2015-08-25 10:03:13
+comments: true
 categories: random blog
 ---
 Hi there! Thanks for visiting the official blog of... me. Some of you (I estimate 8) have previously read the blog posts I wrote a few years ago when I moved across the country from Pittsburgh to San Francisco. From the city of bridges to the city with one really famous bridge. From steel town to silicon valley. From yinzers to hipsters (and hippies). From holy-crap-when-is-spring-coming to holy-crap-when-did-it-last-rain.
@@ -16,7 +17,7 @@ Well, not only am I going to blog *more*, I'm going to blog *better*. That's rig
 
 So, to answer your question, I suggest you update your bookmark and point it to the new blog. And start checking that shit 3 or 4 times daily.
 
-Again, just kidding! You can easily subscribe to the rss feed and get *nearly-instant* updates when I post.
+Again, just kidding! You can easily subscribe to the rss feed and use an rss reader to get *nearly-instant* updates when I post.
 
-I really hope this whole thing isn't going to suck. 
+I really hope this whole thing isn't going to suck.
 
