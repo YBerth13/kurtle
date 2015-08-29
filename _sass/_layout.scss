@@ -123,8 +123,11 @@
     font-size: 20px;
 }
 
-.post-list,
-.project-list {
+.rss-subscribe {
+    text-align: center;
+}
+
+.post-list {
     margin-left: 0;
     list-style: none;
 
@@ -133,34 +136,12 @@
     }
 }
 
-.project-list {
-    > li {
-        border: 2px solid $grey-color-light;
-        border-radius: 7px; 
-    }
-}
-
-.project-description {
-    padding: 20px;
-    padding-left: 0;
-    vertical-align: middle;
-}
-
-.post-meta,
-.project-date {
+.post-meta, {
     font-size: $small-font-size;
     font-weight: 400;
     color: $grey-color;
     text-transform: uppercase;
 }
-
-.project-icon img {
-    border-radius: 50%;
-    display: block;
-    height: 180px;
-    margin: 0 auto;
-}
-
 
 .post-link {
     display: block;
@@ -188,21 +169,6 @@
     @include media-query($on-laptop) {
         font-size: 36px;
     }
-}
-
-.project-title {
-    background-color: $brand-color;
-    border-radius: 5px 5px 0 0;
-    color: $background-color;
-    font-family: Dosis;
-    font-size: 22px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    margin-bottom: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    text-transform: uppercase;
 }
 
 .post-content {
@@ -240,7 +206,7 @@
 .hero {
     background-color: $brand-color;
     font-family: Dosis;
-    padding-top: $spacing-unit;
+    padding-top: $spacing-unit / 2;
     padding-bottom: $spacing-unit;
     text-align: center;
 }
@@ -262,9 +228,9 @@
 
 
 /**
- * Teasers/rows
+ * Teasers
  */
-.row {
+.teaser {
     padding-top: 30px;
     
     h3 {
@@ -274,43 +240,26 @@
     p {
         font-size: 14px;
     }
-}
 
-.teaser img {
-    border-radius: 5px;
-    display: block;
-    margin-bottom: 22px;
-    max-width: 100%;
+    img {
+        border-radius: 5px;
+        display: block;
+        margin-bottom: 22px;
+        max-width: 100%;
 
-    &:hover {
-        
-        background: black;
-
-        opacity: 0.5;
-
-        /*-webkit-filter: ;*/
+        &:hover {
+            opacity: 0.5;
+        }
     }
 }
 
 .col-1-3,
 .col-2-3,
 .col-1-2 {
+    display: inline-block;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-.col-1-3,
-.col-2-3,
-.col-1-2 {
-    display: inline-block;
-}
-
-.teaser {
     vertical-align: top;
-}
-
-.project-icon {
-    vertical-align: middle;
 }
 
 .col-1-3 {
@@ -326,15 +275,114 @@
 }
 
 
+/**
+ * Project page
+ */
+.project-list {
+    margin-left: 0;
+    list-style: none;
 
+    > li {
+        margin-bottom: $spacing-unit * 1.5;
+        border: 2px solid $grey-color-light;
+        border-radius: 7px; 
 
-
-svg {
-    background-color: $brand-color;
-    border-radius: 50%;
-    display: block;
-    width: 180px;
-    margin: 0 auto;
-    height: 180px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
+.project-description {
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.project-title,
+.front-page-section h2 {
+    background-color: $brand-color;
+    border-radius: 5px 5px 0 0;
+    color: $background-color;
+    font-family: Dosis;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/**
+ * Button
+ */
+.btn {
+    background-color: $brand-color;
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    color: $background-color;
+    /*cursor: pointer;*/
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    /*letter-spacing: 0.5px;*/
+    margin: 0 auto;
+    padding: 60px auto;
+    text-transform: uppercase;
+    width: 60px;
+
+    &:hover {
+        /*background-color: $background-color;*/
+        color: $grey-color;
+    }
+}
+
+
+/**
+ * About page
+ */
+.about-container {
+    border: 1px solid $brand-color;
+    border-radius: 7px;
+    margin: 100px auto 0 auto;
+    max-width: 500px;
+    padding: 0 $spacing-unit;
+    padding-bottom: $spacing-unit / 2;
+    text-align: center;
+}
+
+.profile-pic {
+    border: 3px solid $background-color;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px $brand-color;
+    display: block;
+    height: 200px;
+    margin: -100px auto $spacing-unit auto;
+    vertical-align: top;
+}
+
+
+.front-page-section {
+    border: 2px solid $grey-color-light;
+    border-radius: 7px;
+    margin: $spacing-unit auto;
+}
+
+.iframe-aspect{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.iframe-aspect .youtube {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0;
+}
+
+.front-page-description {
+    padding: 15px 15px 0 15px;
+}
