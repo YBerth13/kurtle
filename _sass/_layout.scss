@@ -352,13 +352,20 @@
     text-align: center;
 }
 
-.profile-pic {
+.profile-pic-container {
     border: 3px solid $background-color;
     border-radius: 50%;
     box-shadow: 0 0 0 2px $brand-color;
+    height: 206px;
+    width: 206px;
+    margin: -100px auto $spacing-unit auto;
+    vertical-align: top;
+}
+
+.profile-pic {
+    border-radius: 50%;
     display: block;
     height: 200px;
-    margin: -100px auto $spacing-unit auto;
     vertical-align: top;
 }
 
