@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   likes to blog about all things technology, programming, cycling and hockey. He 
   is attending Hack Reactor in the fall of 2015 to take his programming skillz to
   new heights.
-baseurl: "/kurtle" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kurtle.io" # the base hostname & protocol for your site
 twitter_username: kweiberth
 github_username:  yberth13
