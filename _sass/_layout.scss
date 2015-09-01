@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $brand-color;
-    border-bottom: 1px solid $grey-color-light;
+    background-color: $brand-color;
+    /*border-bottom: 1px solid $grey-color-light;*/
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -11,6 +11,7 @@
 }
 
 .site-title {
+    color: $background-color;
     font-size: 28px;
     font-weight: 300;
     line-height: 56px;
@@ -18,17 +19,18 @@
     float: left;
     font-family: Dosis;
     letter-spacing: 1px;
-
-    &:hover {
-        text-decoration: none;
-    }
 }
 
 .site-nav {
     line-height: 56px;
     text-align: right;
 
+    .menu-icon {
+        display: none;
+    }
+
     .page-link {
+        color: $background-color;
         font-size: 16px;
         letter-spacing: 1px;
         line-height: $base-line-height;
@@ -43,28 +45,29 @@
 
     @include media-query($on-palm) {
         position: absolute;
+        padding-top: 8px;
         top: 9px;
         right: 30px;
-        background-color: $background-color;
+/*        background-color: $brand-color;
         border: 1px solid $grey-color-light;
-        border-radius: 5px;
+        border-radius: 5px;*/
         text-align: right;
 
         .menu-icon {
             display: block;
             float: right;
             width: 36px;
-            height: 26px;
+            height: 25px;
             line-height: 0;
-            padding-top: 10px;
-            text-align: center;
+            padding-top: 5px;
+            text-align: right;
 
             > svg {
                 width: 18px;
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $background-color;
                 }
             }
         }
@@ -74,8 +77,16 @@
             display: none;
         }
 
+        &:hover {
+            background-color: none;
+        }
+
         &:hover .trigger {
+            background-color: $brand-color;
+            border: 1px solid $grey-color-light;
+            border-radius: 5px;
             display: block;
+            padding-top: 5px;
             padding-bottom: 5px;
         }
 
@@ -87,14 +98,6 @@
     }
 }
 
-.inverted-header {
-    background-color: $brand-color;
-
-    .site-header {
-        border-bottom: none;
-        min-height: 56px;
-    }
-}
 
 
 /**
@@ -107,10 +110,15 @@
     font-size: 14px;
 }
 
+.site-footer .footer-page-link {
+    color: $brand-color;
+}
+
 .copyright {
     float: left;
     font-weight: 400;
 }
+
 
 /**
  * Page content
