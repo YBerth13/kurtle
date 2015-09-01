@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "the new blog"
-date:   2015-08-25 10:03:13
+date:   2015-09-01 10:03:13
 comments: true
 categories: random blog
 ---
