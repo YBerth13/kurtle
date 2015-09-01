@@ -1,15 +1,13 @@
 # Site settings
 title: kurtle.io
-email: testemail@testdomain.com
+email: kurt.weiberth@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the blog of Kurt Weiberth, a software developer in the Bay Area. Kurt
+  This is the personal website of Kurt Weiberth, a software developer in the Bay Area. Kurt
   likes to blog about all things technology, programming, cycling and hockey. He 
-  is attending Hack Reactor in the fall of 2015 to take his programming skillz to
+  is attending Hack Reactor in the fall of 2015 to take his programming skills to
   new heights.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kurtle.io" # the base hostname & protocol for your site
-twitter_username: kweiberth
-github_username:  yberth13
 
 # Build settings
 markdown: kramdown
