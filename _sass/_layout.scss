@@ -17,7 +17,7 @@
     line-height: 56px;
     margin-bottom: 0;
     float: left;
-    font-family: Dosis;
+    font-family: $title-font-family;
     letter-spacing: 1px;
 }
 
@@ -35,7 +35,7 @@
         letter-spacing: 1px;
         line-height: $base-line-height;
         text-transform: uppercase;
-        font-family: Dosis;
+        font-family: $title-font-family;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -132,6 +132,7 @@
 }
 
 .rss-subscribe {
+    font-family: $title-font-family;
     text-align: center;
 }
 
@@ -144,16 +145,44 @@
     }
 }
 
-.post-meta, {
-    font-size: $small-font-size;
-    font-weight: 400;
+.recent-post-list {
+    list-style: none;
+    margin: 15px 0 0 0;
+    padding: 0 15px 0 15px;
+
+    li {
+        
+        margin-bottom: 15px;
+        padding-left: 10px;
+
+    }
+
+    .post-meta {
+        line-height: 24px;
+    }
+}
+
+.post-meta {
     color: $grey-color;
+    font-family: $title-font-family;
+    font-size: $small-font-size;
+    font-weight: 300;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-family: $title-font-family;
+    font-size: 28px;
+}
+
+.recent-post-link {
+    display: inline;
+    font-family: $title-font-family;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 15px;
 }
 
 .read-more-link {
@@ -166,12 +195,14 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    margin-top: 0px;
 }
 
 .post-title {
+    font-family: $title-font-family;
     font-size: 28px;
     font-weight: 400;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
@@ -213,7 +244,7 @@
  */
 .hero {
     background-color: $brand-color;
-    font-family: Dosis;
+    font-family: $title-font-family;
     padding-top: $spacing-unit / 2;
     padding-bottom: $spacing-unit;
     text-align: center;
@@ -311,7 +342,7 @@
     background-color: $brand-color;
     border-radius: 5px 5px 0 0;
     color: $background-color;
-    font-family: Dosis;
+    font-family: $title-font-family;
     font-size: 22px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -333,12 +364,11 @@
     /*cursor: pointer;*/
     display: block;
     font-size: 18px;
-    font-weight: 400;
-    /*letter-spacing: 0.5px;*/
+    font-weight: 300;
+    letter-spacing: 1.5px;
     margin: 0 auto;
     padding: 60px auto;
-    text-transform: uppercase;
-    width: 60px;
+    width: 160px;
 
     &:hover {
         /*background-color: $background-color;*/

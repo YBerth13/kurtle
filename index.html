@@ -23,7 +23,7 @@ layout: home-page
 
     <div class="front-page-description">
 
-      <p>A dynamic duo of James Mercer (lead singer/guitarist of the Shins) and Danger Mouse, Broken Bells produces groovy, upbeat tunage. They are awesome. This song is awesome.</p>
+      <p>A dynamic duo of James Mercer (front-man of the Shins) and Danger Mouse, Broken Bells produces groovy, upbeat tunage. They are awesome. This song is awesome.</p>
 
       <p>Fun fact: Danger Mouse and CeeLo make up the musical duo <a href="https://youtu.be/bd2B6SjMh_w" target="_blank">Gnarls Barkley</a>.</p>
 
@@ -37,11 +37,17 @@ layout: home-page
       <h2>Recent blog posts</h2>
     </a>
 
-    <div class="front-page-description">
+    <ul class="recent-post-list">
+      {% for post in site.posts limit:5 %}
+        <li>
+          
+          <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+         
+          <a class="recent-post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
-      <p></p>
-
-    </div>
+        </li>
+      {% endfor %}
+    </ul>
 
   </section>
 
