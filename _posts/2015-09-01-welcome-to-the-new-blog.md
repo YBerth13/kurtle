@@ -3,7 +3,6 @@ layout: post
 title:  "the new blog"
 date:   2015-09-01 10:03:13
 comments: true
-categories: random blog
 ---
 Hello there! Or, should I say instead:
 
@@ -27,6 +26,6 @@ Well, not only am I going to blog *more*, I'm going to blog *better*. That's rig
 
 So, I suggest you update your bookmark and point it to this new blog. And start checking that shit 3 or 4 times daily.
 
-Again, just kidding! You can easily subscribe to the rss feed and use an rss reader to get *nearly instant* updates when I post something.
+Again, just kidding! You can easily [subscribe to the rss feed](http://kurtle.io/feed.xml) and use an rss reader to get *nearly instant* updates when I post something.
 
 I really hope this whole thing isn't going to suck.
