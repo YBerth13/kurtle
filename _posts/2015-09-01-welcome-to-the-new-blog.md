@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "the new blog"
-date:   2015-09-01 10:03:13
+date:   2015-09-02 03:03:13
 comments: true
 ---
 Hello there! Or, should I say instead:
@@ -22,7 +22,7 @@ There are a few reasons I want to start blogging again, none of which I'm going 
 
 I know that right about now you're thinking... "*Kurt, why don't you just continue your old blog? I have it on my Bookmarks Bar and I've been checking once, sometimes twice daily to see if you'd write some new material.*"
 
-Well, not only am I going to blog *more*, I'm going to blog *better*. That's right, I'm going to use my own domain name, customize the styling and learn how to host my own website. I figured these are just a few of the basic skillz I should know as I transition from science to software development. Also, most of the embedded pictures from my original posts are no longer there. Many of those photo captions were fairly comical (I swear!); unfortunately, without an accompanying picture, none of them are funny any longer. 
+Well, not only am I going to blog *more*, I'm going to blog *better*. That's right, I'm going to use my own domain name, customize the styling and learn how to host my own website. I figured these are just a few of the basic skillz I should know as I transition from science to software development. Also, most of the embedded pictures from my original posts are no longer there. Many of those photo captions were fairly comical (I swear!); unfortunately, without an accompanying picture, none of them are funny. 
 
 So, I suggest you update your bookmark and point it to this new blog. And start checking that shit 3 or 4 times daily.
 
