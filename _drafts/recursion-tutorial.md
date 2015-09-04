@@ -10,7 +10,11 @@ In chapter 5, the author introduces the concept of recursive programming. Recurs
 
 First, you can head over to [the code sandbox](http://eloquentjavascript.net/code/) for Eloquent JavaScript. Here, you can select chapter 5: higher-order functions and then you can play around with the code. Basically, this loads the objects and functions for the chapter. It's cool to work in this "sandbox", but I actually find it easier to work locally on your computer. It will also help us learn how to do this stuff in a more real-world environment.
 
-On the sandbox page, download the .zip file that contains the code for chapter 5. Unzip it. In this folder we have the following files:
+On the sandbox page, download the .zip file that contains the code for chapter 5. Unzip it. 
+
+Note: This tutorial is based on the 2nd edition of the book. If the files aren't the same as I describe them or there's a new version of the book, it's possible that the content has been updated or revised. You can download the files I used to write this tutorial from my [github](https://github.com/kweiberth/05_higher_order).
+
+Okay, in this folder we have the following files:
 
 {% highlight bash %}
 05_higher_order
