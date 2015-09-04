@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "how does recursion work?: a case study"
-date:   2015-09-04 03:03:13
+title:  "recursion in javascript: a case study"
+date:   2015-09-04 13:03:13
 comments: true
 ---
 A few months ago, I decided to apply to [Hack Reactor](http://www.hackreactor.com) in order to take my programming skillz to the next level. Hack Reactor has a lively and (extrememly) helpful online community of admin, alumni and prospective students. Luckily, all of this online presence made the interview prep more manageable and much less stressful. Since Hack Reactor uses javascript to teach fundamentals, one of the recommended resources was [Eloquent JavaScript](http://eloquentjavascript.net). This is a wonderful resource. You should check it out. Seriously.
