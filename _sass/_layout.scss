@@ -243,6 +243,19 @@
             font-size: 18px;
         }
     }
+
+    img {
+        display: block;
+        max-height: 425px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    small {
+        display: block;
+        text-align: center;
+    }
 }
 
 
@@ -285,17 +298,6 @@
 
     p {
         font-size: 14px;
-    }
-
-    img {
-        border-radius: 5px;
-        display: block;
-        margin-bottom: 22px;
-        max-width: 100%;
-
-        &:hover {
-            opacity: 0.5;
-        }
     }
 }
 

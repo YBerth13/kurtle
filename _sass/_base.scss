@@ -94,7 +94,18 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-family: $title-font-family;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+h3,
+h4 {
+    color: $grey-color-dark;
+}
+
+h4 {
+    font-weight: 400;
 }
 
 
