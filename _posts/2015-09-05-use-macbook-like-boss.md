@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "how to use your macbook like a boss"
-date:   2015-09-02 03:03:13
+date:   2015-09-05 03:03:13
 comments: true
 ---
 I first started using a Macbook in 2008 when I was heading off to college. At the time, one of the unfamiliarities of Mac OS X was its window layout and management. In Microsoft Windows, application windows could easily be toggled to full screen with the "maximize" button, which hung out right next to "minimize" and "close". Made sense. When I started using Mac OS X, I was presented with three small, colorful circles at the top of each application window. On top of this, they were on the wrong side!
