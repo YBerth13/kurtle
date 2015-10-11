@@ -17,31 +17,31 @@ However, I quickly ran into an issue while using Vimium and Chrome's developer t
 
 Turns out, there really isn't. I'm not the first person to long for such functionality, but it seems that Google has not implemented a keyboard shortcut to solve this task. I did, however, find some solutions that worked *pretty* well. The following sections go through some common cases and solutions for using your keyboard to switch focus between Chrome's console and the current web page.
 
-#### Switch focus from web page to (currently unopened) Chrome console
+### Switch focus from web page to (currently unopened) Chrome console
 
 If you are on a web page and would like to open up and switch focus to Chrome's console, you can use `cmd + option + J`.
 
-#### Switch focus from web page to (currently opened) Chrome console
+### Switch focus from web page to (currently opened) Chrome console
 
 If the Chrome console is currently open, and you'd like to switch the focus back to the console from the web page you're browsing, there are a couple of options you have, depending on how you like to use the console:
 
-##### You use the console in the same window as the web page
+#### You use the console in the same window as the web page
 
 Unfortunately, there is no keyboard shortcut specifically for this task. However, you can bring focus into the console by hitting `cmd + shift + C` twice. Hitting it only once will bring focus into the console, but will also initiate the "inspect element" mode on the web page itself. Hitting it a second time toggles off this "inspect element" mode, and focus stays in the console.
 
-##### You use the console in a separate window
+#### You use the console in a separate window
 
-If you use the console in a separate window, you can toggle between an application's (in this case, Chrome's) windows by holding down `cmd` and tapping `` `. When the window you'd like to use is brought into focus, let go of `cmd`.  The one downfall of this method is that you will have to toggle through all of Chrome's open windows, which could be a lot depending on how you work. Note: this same method can be used for moving the focus back to the console.
+If you use the console in a separate window, you can toggle between an application's (in this case, Chrome's) windows by holding down `cmd` and tapping \` (the key right above `tab`). When the window you'd like to use is brought into focus, let go of `cmd`.  The one downfall of this method is that you will have to toggle through all of Chrome's open windows, which could be a lot depending on how you work. Note: this same method can be used for moving the focus back to the console.
 
-#### Switch focus from Chrome's console to web page 
+### Switch focus from Chrome's console to web page 
 
 This is the simple task that sent me down the rabbit hole of researching keyboard shortcuts and focusing Chrome's console. There are a couple solutions, none of which are perfect.
 
-##### Close Chrome's console
+#### Close Chrome's console
 
 This is the easiest, but likely worst, solution. If your current focus is in the console, and you'd like to return the focus to the web page, you can hit `cmd + option + J` to close the console. To get back to the console, use the same shortcut to reopen it. 
 
-##### Keep Chrome's console open and in the same window
+#### Keep Chrome's console open and in the same window
 
 The best solution I found for this task was presented in a post on [Stack Overflow](http://stackoverflow.com/questions/12823333/keyboard-shortcut-to-switch-focus-from-web-developer-tools-to-page-in-chrome-on/30567119#30567119). While the focus is in the console, hit `cmd + L` to move the focus into Chrome's omnibox. Then, type `javascript:` and hit `Enter`. Note: that's javascript with a colon right after. Doing this should switch the focus back to the web page and allow for Vimium navigation. 
 
@@ -51,7 +51,7 @@ Now, when you're in Chrome's console, you should be able hit `cmd + L`, then typ
 
 Please consult the [Stack Overflow post](http://stackoverflow.com/questions/12823333/keyboard-shortcut-to-switch-focus-from-web-developer-tools-to-page-in-chrome-on/30567119#30567119) for more information.
 
-#### Wrap up
+### Wrap up
 
 Using the keyboard to switch focus from Chrome's console to the web page seems like a simple, unimportant task, but when I'm trying to be cool and not use my trackpad, it's a huge deterrent. Okay, in reality, writing about how to do this in the first place might preclude any coolness at all, but I still want to be as lazy as possible. 
 
