@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "react + redux + webpack tutorial series"
-date:   2016-02-08 10:03:13
+date:   2016-02-08 03:03:13
 comments: true
 ---
 
